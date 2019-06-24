@@ -33,7 +33,7 @@ class FullIconButton extends MaterialButton with MaterialButtonWithIconMixin {
     Widget topIcon,
     Widget rightIcon,
     Widget bottomIcon,
-    EdgeInsetsGeometry textPadding,
+    EdgeInsetsGeometry textPadding = const EdgeInsets.all(0),
     Widget label,
   })  : assert(elevation == null || elevation >= 0.0),
         assert(highlightElevation == null || highlightElevation >= 0.0),
