@@ -1,6 +1,6 @@
 # full_icon_button
 
-A button with icon around it.
+A button and a text with icon around it.
 
 FullIconButton 继承自MaterialButton，在构造函数里我加了这些属性
 ```
@@ -38,6 +38,8 @@ FullIconButton(
 ![WechatIMG3.png](https://upload-images.jianshu.io/upload_images/7913085-771e7af8049c9939.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 当然四周定义的是widget，所以你可以放任何widget进去，不只是icon。通过这个自定义Button，我们可以定义任何我们想要的通用的widget，不明白或者遇到问题的时候查看下源码是怎么做的就可以了。
+
+添加了FullIconText
 
 
 ## Getting Started
