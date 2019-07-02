@@ -35,6 +35,7 @@ class FullIconText extends StatelessWidget {
     // TODO: implement build
     return direction == Axis.horizontal
         ? Row(
+            mainAxisSize: MainAxisSize.min,
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
